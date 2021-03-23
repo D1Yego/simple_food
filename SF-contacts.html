@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="eng">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="DY">
+            <meta name="description" content="This is a food blog website sample.">
+            <title>Food Blog</title>
+            <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,700|Source+Sans+Pro:300,400,600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="styles/styles.css">
+        </head>
+
+        <body>
+            <div class="top top-flex">
+                    <div class="logo">
+                        <h1 class="nav-title">Simple Food</h1>
+                        <p class="subtitle"><i>for everyone</i></p>
+                    </div>
+
+                <nav class="nav-bar">
+                    <ul class="nav-list">
+                         <li class="nav-item"><a class="nav-link nav-link-inactive" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-inactive" href="SF-latestPosts.html">Recent Posts</a></li>
+                        <li class="nav-item"><a class="nav-link-active" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+            
+            <container name="container">
+                <main class="contact">
+                    <h2 class="contact-me">Contact Me</h2>
+                    <h4>Please send me a message to yegorovd14@gmail.com</h4>
+                    <div class="message">
+                        <form class="mess-form" name="sentMessage" id="contactform01" method="post" novalidate="novalidate" netlify>
+                            <input type="text" name="name" id="name" class="mess-field" placeholder="*Your Name" required data-validation-required-message="Please enter your name.">
+                            <input type="email" name="email" id="email" class="mess-field" placeholder="*Your Email" required data-validation-required-message="Please enter your email.">
+                            <input type="text" name="subject" id="subject" class="mess-field" placeholder="*Subject" required data-validation-required-message="Please enter the subject.">
+                            <label class="mess" for="mess">Your Message:</label>
+                            <textarea name="message" rows="3" cols="20" id="message" class="contact-text" required></textarea>
+                            <p class="permition">Required fields are marked with *</p>
+                            <p class="permition">We'll never share your information without your permition!</p>
+                            <button class="button main-link" type="submit">Send</button>
+                        </form>
+                            
+                        </div>
+                    </div>
+                </main>
+            </container>
+        </body>
+
+        <foot class="foot">
+            <p>Compiled by <span class="sign">Dmitriy.Y</span></p>
+        </foot>
+
+    </html>
